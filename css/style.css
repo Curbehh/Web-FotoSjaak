@@ -1,0 +1,98 @@
+*
+{
+ padding: 0px;
+ margin: 0px;
+}
+
+
+body
+{
+ background-color:White;
+ color:Black;
+ font-size:1.0em;
+ font-family:Comic Sans MS, Arial;
+ border:0px Solid White;
+ padding:1.5em;
+ margin:0px;
+}
+
+div#container
+{
+ background-color:White; 
+ width:550px;
+ margin:0px auto;
+ border-radius:25px;
+}
+
+div#banner
+{
+ background-image:url("../images/jumbo_banner.jpg");
+ background-repeat:no-repeat;
+ background-color:White;
+ height:150px;
+ width:550px;
+ border-radius:25px;
+ 
+}
+
+div#footer
+{
+ background-color:RGB(0, 150, 255);
+ text-align:Center;
+}
+
+div#content
+{
+ min-height:250px;
+ border:5px Solid red;
+ text-align:Center;
+ position: relative;
+}
+
+div#link
+{
+ border:5px Solid red;
+ position: absolute;
+ left:-125px;
+ background-color: White;
+ border-radius: 15px;
+ padding: 0.5em;
+}
+
+div#link ul
+{
+ list-style-type:none; 
+
+
+}
+
+a
+{
+ color: Black;
+ text-decoration: none;
+}
+
+table.simple
+{
+ border-collapse:colepse; 
+ margin:0px auto;
+}
+
+table.simple th, td
+{
+ border:1px solid red;
+ text-align:center;
+ padding: 0,3em;
+ background-color:White;
+ color:Black;
+ margin:0px auto;
+}
+
+table.simple caption
+{
+	background-color:White;
+}
+
+
+
+	
