@@ -23,6 +23,12 @@
 			case 'customer':
 				header("location:index.php?content=customer_homepage");
 			break;
+			case 'administrator':
+				header("location:index.php?content=administrator_homepage");
+			break;
+			case 'developer':
+				header("location:index.php?content=developer_homepage");
+			break;
 		}
 	}
 	else

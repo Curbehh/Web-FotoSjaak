@@ -34,6 +34,19 @@
 			case 'root';
 				
 			break;
+				  "<li>
+						<a href='index.php?content=administrator_homepage'>admin page</a>
+					  </li>";
+			case 'administrator';
+				
+			break;
+			
+			case 'developer';
+					  "<li>
+						<a href='index.php?content=developer_homepage'>dev page</a>
+					  </li>";
+			break;
+			
 			}			
 		}
 		else
